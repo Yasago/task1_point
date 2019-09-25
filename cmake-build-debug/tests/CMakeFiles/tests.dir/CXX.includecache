@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ilya/CLionProjects/task1_point/src/xipoint.cpp
+xipoint.h
+/home/ilya/CLionProjects/task1_point/src/xipoint.h
+algorithm
+-
+cmath
+-
+
+/home/ilya/CLionProjects/task1_point/src/xipoint.h
+

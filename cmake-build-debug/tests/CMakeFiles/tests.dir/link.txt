@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g  -rdynamic CMakeFiles/tests.dir/point_test.cpp.o CMakeFiles/tests.dir/point_array_test.cpp.o CMakeFiles/tests.dir/__/src/xipoint.cpp.o CMakeFiles/tests.dir/gtest/gtest-all.cc.o CMakeFiles/tests.dir/gtest/gtest_main.cc.o  -o tests 

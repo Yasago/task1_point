@@ -13,3 +13,6 @@ add_executable(tests
     gtest/gtest-all.cc
     gtest/gtest_main.cc
 )
+set(GCC_COVERAGE_COMPILE_FLAGS "-pthread")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${GCC_COVERAGE_COMPILE_FLAGS}" )
+SET(CMAKE_CXX_FLAGS -pthread)
